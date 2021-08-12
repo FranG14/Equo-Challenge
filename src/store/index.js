@@ -20,6 +20,7 @@ export default createStore({
     setCountries(state, payload) {
       state.countries = payload;
       state.allCountries = payload;
+      state.page = 0
     },
     setCountryDetail(state, payload) {
       state.countryDetails = payload;

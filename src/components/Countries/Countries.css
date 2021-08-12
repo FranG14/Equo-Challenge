@@ -1,0 +1,147 @@
+.navBar {
+  padding: 30px;
+  background-color: #395979;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.innerNavBar {
+  width: 33%;
+}
+
+.config {
+  padding: 5px;
+  background-color: #395979;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.innerConfig {
+  width: 33%;
+  padding-top: 35px;
+}
+
+.modal{
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 99;
+  background-color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.details {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-right: 50px;
+    padding-left: 50px;
+  background: rgb(140, 140, 201);
+  border-radius: 10%;
+  font-size: x-large;
+  color: rgb(44,62,80);
+  font-weight: 700;
+}
+
+.searchBar {
+  height: 30px;
+  width: 50%;
+  border-radius: 10%;
+  border: rgba(142, 142, 189, 0.342);
+}
+
+.regionSelector {
+  height: 30px;
+  width: 50%;
+  align-content: center;
+  border-radius: 10%;
+  border: rgba(142, 142, 189, 0.342);
+}
+
+::placeholder {
+  color: black;
+  font-weight: bold;
+}
+
+.grid-container {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  grid-gap: 20px;
+  background-color: rgb(207, 207, 207);
+  padding-bottom: 10px;
+}
+
+.countryCard {
+  width: 200px;
+  height: 300px;
+  background-color: rgba(142, 142, 189, 0.616);
+  border-color: rgb(92, 92, 126);
+  border-radius: 10%;
+  padding: 30px;
+  margin-bottom: -17px;
+  flex: 1 0 20%;
+  margin: 5px;
+}
+
+.countryCardGrid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 40px;
+  padding-right: 25px;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+
+.cardName {
+  font-size: x-large;
+  font-weight: 700;
+}
+
+.cardRegion {
+  padding-top: 5px;
+  font-size: large;
+  font-weight: 600;
+}
+
+.backgroundColor {
+  background-color: rgba(142, 142, 189, 0.342);
+}
+
+.paginationButtons {
+  border-radius: 10%;
+  width: 25%;
+  padding: 5px;
+  border: rgba(142, 142, 189, 0.342);
+}
+
+.sortBy {
+  width: 35%;
+  padding: 5px;
+  border-radius: 10%;
+  border: rgba(142, 142, 189, 0.342);
+}
+
+.openPopup {
+  margin-top: 20%;
+  width: 55%;
+  padding: 5px;
+  border-radius: 10%;
+  border: rgba(142, 142, 189, 0.342);
+}
+
+.closePopup {
+  margin-top: 20%;
+  width: 55%;
+  padding: 5px;
+  border-radius: 10%;
+  border: rgba(142, 142, 189, 0.342);
+}
